@@ -9,7 +9,7 @@ export default function Header() {
           alt="Suin Kim"
           width={120}
           height={160}
-          className="h-full w-full object-cover object-[center_20%]"
+          className="h-full w-full scale-150 object-cover object-[center_25%]"
           priority
         />
       </div>
