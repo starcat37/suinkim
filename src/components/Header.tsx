@@ -3,14 +3,16 @@ import Image from "next/image";
 export default function Header() {
   return (
     <header className="mb-8 flex items-center gap-5">
-      <Image
-        src="/profile-natural.jpg"
-        alt="Suin Kim"
-        width={120}
-        height={120}
-        className="rounded-full object-cover"
-        priority
-      />
+      <div className="size-[120px] shrink-0 overflow-hidden rounded-full">
+        <Image
+          src="/profile-natural.jpg"
+          alt="Suin Kim"
+          width={120}
+          height={160}
+          className="h-full w-full object-cover object-[center_20%]"
+          priority
+        />
+      </div>
       <div>
         <h1 className="text-3xl font-bold tracking-tight">Suin Kim</h1>
         <p className="mt-1 text-muted">Software Engineer</p>
