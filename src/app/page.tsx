@@ -63,14 +63,16 @@ export default function Home() {
               (Analyze–Search–Generate–Evaluate).
             </li>
             <li>
-              <strong>LGE Global Careers Platform:</strong> Frontend development
-              for{" "}
-              <a href="https://globalcareers.lge.com/" target="_blank" rel="noopener noreferrer">
-                LG Electronics&apos; global hiring platform
-              </a>
-              {" "}using Next.js, supporting 16 languages across 117 regional
-              operations. Owned i18n architecture and optimized SSR/SEO for
-              multi-regional UX requirements.
+              <strong>
+                <a href="https://globalcareers.lge.com/" target="_blank" rel="noopener noreferrer">
+                  LGE Global Careers Platform
+                </a>
+                :
+              </strong>{" "}
+              Frontend development for LG Electronics&apos; global hiring platform
+              using Next.js, supporting 16 languages across 117 regional operations.
+              Owned i18n architecture and optimized SSR/SEO for multi-regional UX
+              requirements.
             </li>
             <li>
               <strong>Technical &amp; AX Mentoring:</strong> Led hands-on
