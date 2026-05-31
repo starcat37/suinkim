@@ -7,10 +7,6 @@ export default function Home() {
     <>
       <Header />
 
-      <nav className="mb-10 text-sm">
-        <span className="font-semibold">About</span>
-      </nav>
-
       <Section title="About">
         <p className="leading-relaxed">
           I am a software engineer at{" "}

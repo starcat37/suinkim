@@ -27,7 +27,7 @@ export default function Header() {
             LinkedIn
           </a>
           {" · "}
-          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+          <a href="/cv.pdf" target="_blank" rel="noopener noreferrer">
             CV (PDF)
           </a>
         </p>
