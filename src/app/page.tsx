@@ -63,7 +63,7 @@ export default function Home() {
               (Analyze–Search–Generate–Evaluate).
             </li>
             <li>
-              <strong>Global Recruitment Platform:</strong> Frontend development
+              <strong>LGE Global Careers Platform:</strong> Frontend development
               for{" "}
               <a href="https://globalcareers.lge.com/" target="_blank" rel="noopener noreferrer">
                 LG Electronics&apos; global hiring platform
