@@ -9,10 +9,6 @@ export default function Home() {
 
       <nav className="mb-10 text-sm">
         <span className="font-semibold">About</span>
-        {" | "}
-        <span className="text-muted cursor-default" title="Coming soon">
-          Posts
-        </span>
       </nav>
 
       <Section title="About">
@@ -39,7 +35,7 @@ export default function Home() {
       <Section title="Experience">
         <div className="mb-4">
           <div className="flex flex-wrap items-baseline justify-between gap-x-2">
-            <h3 className="font-semibold">LG CNS (Build Center)</h3>
+            <h3 className="font-semibold">LG CNS</h3>
             <span className="text-sm text-muted">Seoul, South Korea</span>
           </div>
           <div className="flex flex-wrap items-baseline justify-between gap-x-2">
@@ -50,36 +46,64 @@ export default function Home() {
             <li>
               <strong>LGE ThinQ AI Recipe:</strong> Developed test automation
               agents in a multi-agent recipe generation pipeline shipped to the
-              LGE ThinQ App. Built an agent covering normal, guardrail, and
-              adversarial test modes using keyword sampling, deduplication, and
-              temperature tuning; resolved multilingual inference degradation by
-              migrating to a Korean/English dual-prompt architecture.
+              LGE ThinQ App.
+              <ul className="mt-1 list-disc pl-5 space-y-1">
+                <li>
+                  Built an agent covering normal, guardrail, and adversarial
+                  test modes using keyword sampling, deduplication, and
+                  temperature tuning.
+                </li>
+                <li>
+                  Resolved multilingual inference degradation by migrating to a
+                  Korean/English dual-prompt architecture.
+                </li>
+              </ul>
             </li>
             <li>
               <strong>AI-Driven Design Prototyping (Internal PoC):</strong> Led
-              end-to-end development of an automated UI prototyping system.
-              Engineered a custom MCP Server bridging vector DBs with Cursor
-              Agent and implemented self-correcting agent loops using LangGraph
-              (Analyze–Search–Generate–Evaluate).
+              the end-to-end development of an automated UI prototyping system
+              that generates code from User Journey Maps.
+              <ul className="mt-1 list-disc pl-5 space-y-1">
+                <li>
+                  Engineered a custom MCP Server to bridge vector databases with
+                  Cursor Agent, automating HTML/CSS generation.
+                </li>
+                <li>
+                  Reduced design inconsistencies by implementing self-correcting
+                  agent loops using LangGraph (Analyze-Search-Generate-Evaluate).
+                </li>
+              </ul>
             </li>
             <li>
               <strong>
                 <a href="https://globalcareers.lge.com/" target="_blank" rel="noopener noreferrer">
                   LGE Global Careers Platform
-                </a>
-                :
+                </a>:
               </strong>{" "}
-              Frontend development for LG Electronics&apos; global hiring platform
-              using Next.js, supporting 16 languages across 117 regional operations.
-              Owned i18n architecture and optimized SSR/SEO for multi-regional UX
-              requirements.
+              Frontend development for LG Electronics&apos; global hiring
+              platform using Next.js, supporting 16 languages across 117
+              regional operations.
+              <ul className="mt-1 list-disc pl-5 space-y-1">
+                <li>
+                  Owned i18n architecture and optimized SSR/SEO for
+                  multi-regional UX requirements.
+                </li>
+              </ul>
             </li>
             <li>
-              <strong>Technical &amp; AX Mentoring:</strong> Led hands-on
-              sessions as assistant instructor across 3 AX Incubation Camp
-              cohorts (20+ engineers each). Mentored peers on agentic workflows
-              as AX Learning Crew mentor, and delivered AI coding workshops to
-              affiliate company engineers.
+              <strong>Technical &amp; AX Mentoring:</strong>
+              <ul className="mt-1 list-disc pl-5 space-y-1">
+                <li>
+                  <strong>AX Incubation Camp:</strong> Assistant instructor
+                  across 3 cohorts (20+ engineers each), leading hands-on
+                  sessions on AI-assisted coding and LLM application design.
+                </li>
+                <li>
+                  <strong>AX Learning Crew:</strong> Mentored peers on practical
+                  Agentic Workflows; delivered AI coding workshops to affiliate
+                  company engineers.
+                </li>
+              </ul>
             </li>
           </ul>
         </div>
@@ -91,7 +115,8 @@ export default function Home() {
           <ul className="mt-2 list-disc pl-5 text-[15px] leading-relaxed">
             <li>
               Built a full-stack internal operations platform using NestJS and
-              MongoDB, automating manual data collection for 100+ members.
+              MongoDB, automating manual data collection for 100+ members within
+              the Build Center.
             </li>
           </ul>
         </div>
@@ -176,23 +201,24 @@ export default function Home() {
         <p className="text-sm text-muted">Mar 2020 &ndash; Aug 2024</p>
         <p className="mt-2 text-[15px]">
           <strong>GPA: 4.04 / 4.5</strong> &middot; Relevant Coursework:
-          Database Systems, Operating Systems, Machine Learning, NLP
+          Databases, Machine Learning, Natural Language Processing
         </p>
       </Section>
 
       <Section title="Skills & Languages">
         <ul className="list-disc pl-5 space-y-1 text-[15px] leading-relaxed">
           <li>
-            <strong>Tech Stack:</strong> Python, TypeScript, Java, FastAPI,
-            Spring Boot, NestJS, React, Next.js, LangGraph, MySQL, MongoDB
+            <strong>Tech Stack:</strong> Python, TypeScript, React, Next.js,
+            LangGraph, MySQL
           </li>
           <li>
             <strong>Specialized In:</strong> AI Agent Design, Prompt
-            Engineering, Multilingual Systems &amp; i18n, Technical Mentoring
+            Engineering, Multilingual Systems, Frontend Engineering, Technical
+            Mentoring
           </li>
           <li>
             <strong>Languages:</strong> Korean (Native), English (Fluent),
-            Chinese (Conversational), Japanese (Conversational)
+            Chinese (Conv.), Japanese (Conv.)
           </li>
           <li>
             <strong>Consistency:</strong> 2,000+ day Duolingo streak
