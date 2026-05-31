@@ -20,17 +20,19 @@ export default function Home() {
           I am a software engineer at{" "}
           <a href="https://www.lgcns.com/en/" target="_blank" rel="noopener noreferrer">
             LG CNS
-          </a>
-          , where I build AI-powered systems and full-stack web applications. My
-          recent work focuses on designing agentic workflows with LLMs, building
-          multi-modal RAG pipelines, and developing enterprise-scale platforms
-          with Next.js.
+          </a>{" "}
+          with a background in both Linguistics and Computer Science. I build
+          AI-powered systems at the intersection of language and technology —
+          from multilingual enterprise platforms to agentic workflows for
+          production consumer products.
         </p>
         <p className="mt-3 leading-relaxed">
-          I hold dual degrees in Linguistics and Computer Science from Korea
-          University. Outside of work, I contribute to open source, mentor
-          engineers on AI-native development practices, and maintain a 2,000+
-          day streak on Duolingo across four languages.
+          I am drawn to problems where linguistic nuance matters in engineering:
+          designing prompts that behave consistently across locales, handling
+          multi-language UX at scale, and building systems that work for diverse
+          users worldwide. Outside of work, I mentor engineers on AI-native
+          development and maintain a 2,000+ day streak on Duolingo across four
+          languages.
         </p>
       </Section>
 
@@ -46,29 +48,33 @@ export default function Home() {
           </div>
           <ul className="mt-2 list-disc pl-5 space-y-2 text-[15px] leading-relaxed">
             <li>
-              <strong>AI-Driven Design Prototyping (Internal PoC):</strong> Led
-              end-to-end development of an automated UI prototyping system.
-              Built a multi-modal RAG pipeline with Gemini Pro Vision, engineered
-              a custom MCP Server bridging vector DBs with Cursor Agent, and
-              implemented self-correcting agent loops using LangGraph.
+              <strong>LGE ThinQ AI Recipe:</strong> Developed test automation
+              agents in a multi-agent recipe generation pipeline shipped to the
+              LGE ThinQ App. Built an agent covering normal, guardrail, and
+              adversarial test modes using keyword sampling, deduplication, and
+              temperature tuning; resolved multilingual inference degradation by
+              migrating to a Korean/English dual-prompt architecture.
             </li>
             <li>
-              <strong>Insurance Agent Workflow PoC:</strong> Co-developed an
-              enterprise AI agent for insurance operations using Claude SDK and
-              FastAPI. Integrated AI into legacy systems via a Chrome Extension
-              (Manifest V3) and orchestrated multi-step tool-calling backend
-              logic.
+              <strong>AI-Driven Design Prototyping (Internal PoC):</strong> Led
+              end-to-end development of an automated UI prototyping system.
+              Engineered a custom MCP Server bridging vector DBs with Cursor
+              Agent and implemented self-correcting agent loops using LangGraph
+              (Analyze–Search–Generate–Evaluate).
             </li>
             <li>
               <strong>Global Recruitment Platform:</strong> Frontend development
-              for a global-scale hiring system using Next.js, managing i18n
-              strategies and optimizing SSR/SEO for multi-regional UX.
+              for LG Electronics&apos; global hiring platform using Next.js,
+              supporting 16 languages across 117 regional operations. Owned
+              i18n architecture and optimized SSR/SEO for multi-regional UX
+              requirements.
             </li>
             <li>
-              <strong>Technical &amp; AX Mentoring:</strong> Assistant instructor
-              for 20+ engineers in AX Incubation Camp. Mentored peers on agentic
-              workflows in AX Learning Crew, fostering AI-native development
-              culture.
+              <strong>Technical &amp; AX Mentoring:</strong> Led hands-on
+              sessions as assistant instructor across 3 AX Incubation Camp
+              cohorts (20+ engineers each). Mentored peers on agentic workflows
+              as AX Learning Crew mentor, and delivered AI coding workshops to
+              affiliate company engineers.
             </li>
           </ul>
         </div>
@@ -177,7 +183,7 @@ export default function Home() {
           </li>
           <li>
             <strong>Specialized In:</strong> AI Agent Design, Prompt
-            Engineering, DB Design, Technical Mentoring
+            Engineering, Multilingual Systems &amp; i18n, Technical Mentoring
           </li>
           <li>
             <strong>Languages:</strong> Korean (Native), English (Fluent),
